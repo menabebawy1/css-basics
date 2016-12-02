@@ -12,33 +12,38 @@
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: #333;
+    height: 1.3px;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    color: orange;
+    border-style: dashed;
 }
 
-h1{
+h1 {
     font-size: 72px
-    
 }
-h1, h2{
+
+h1,
+h2 {
     font-family: "Oswald", "Helvetica Neue";
     text-align: center;
     color: #2884C3;
 }
+
 body {
     font-size: 1.5em;
     font-family: "crimson Text", "Arial";
     line-height: 1.5;
 }
-code
-{color: #CE234C;
-background-color: lightgray;
+
+code {
+    color: #CE234C;
+    background-color: lightgray;
 }
+
 .snippet {
     background: lightgrey;
 }
+
 #font-practice {
     font-style: italic;
     color: green;
@@ -46,12 +51,24 @@ background-color: lightgray;
     font-family: arial;
 }
 
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
 a:hover {
-    color:red;
+    color: red;
 }
-a {
-  color: green;
-}
+
 a:active {
+    color: blue;
+}
+
+ul {
+    list-style-type: circle;
+    font-style: italic;
     color: blue;
 }
